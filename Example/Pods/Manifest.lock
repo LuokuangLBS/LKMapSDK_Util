@@ -1,0 +1,16 @@
+PODS:
+  - LKMapSDK_Util (0.1.0)
+
+DEPENDENCIES:
+  - LKMapSDK_Util (from `../`)
+
+EXTERNAL SOURCES:
+  LKMapSDK_Util:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LKMapSDK_Util: fb72e656a30d0d8bd01f75acd8da344f79a26fa1
+
+PODFILE CHECKSUM: e9a054f2eb685f3d0baf5a4ebccca0bbebcacbfb
+
+COCOAPODS: 1.9.0.beta.3

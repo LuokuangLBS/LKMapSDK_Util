@@ -59,13 +59,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7ACAA3822022671CB0F6BB94 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7ACAA3822022671CB0F6BB94 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B42C5D31B38F22FCF18F911 /* Pods_LKMapSDK_Util_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKMapSDK_Util_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09ABEB29C38D1CEF654ACFA /* Pods_LKMapSDK_Util_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKMapSDK_Util_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A068D1FA6BCDD42AE0B8C1 /* Pods-LKMapSDK_Util_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKMapSDK_Util_Example.release.xcconfig"; path = "Target Support Files/Pods-LKMapSDK_Util_Example/Pods-LKMapSDK_Util_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D27DC4EEDDECEDDB2C4EC7C2 /* LKMapSDK_Util.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LKMapSDK_Util.podspec; path = ../LKMapSDK_Util.podspec; sourceTree = "<group>"; };
-		F215915C8196B23A4BF4F156 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D27DC4EEDDECEDDB2C4EC7C2 /* LKMapSDK_Util.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LKMapSDK_Util.podspec; path = ../LKMapSDK_Util.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F215915C8196B23A4BF4F156 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F596ABE187BDE7E2AC272250 /* Pods-LKMapSDK_Util_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKMapSDK_Util_Tests.release.xcconfig"; path = "Target Support Files/Pods-LKMapSDK_Util_Tests/Pods-LKMapSDK_Util_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				1829BCB023C403AEFA0F7EBB /* Pods-LKMapSDK_Util_Tests.debug.xcconfig */,
 				F596ABE187BDE7E2AC272250 /* Pods-LKMapSDK_Util_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

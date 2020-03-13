@@ -1,0 +1,22 @@
+{
+  "name": "LKMapSDK_Util",
+  "version": "0.1.0",
+  "summary": "A short description of LKMapSDK_Util.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LuokuangLBS/LKMapSDK_Util",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LuokuangLBS": "haofp@luokung.com"
+  },
+  "source": {
+    "git": "https://github.com/LuokuangLBS/LKMapSDK_Util.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LKMapSDK_Util/Classes/**/*"
+}
